@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
   burger.addEventListener("click", () => {
     menu.classList.toggle("js-active")
   })
-  document.querySelectorAll('.menu__link').forEach(link => {
+  document.querySelectorAll('.menu__link,.footer__link--anch').forEach(link => {
 
     link.addEventListener('click', function(e) {
         e.preventDefault();
