@@ -2,10 +2,14 @@ import './_vendor';
 import vars from './_vars';
 import './_functions';
 import './_components';
-
+// import AOS from 'aos';
 
 
 document.addEventListener("DOMContentLoaded", () => {
+
+// AOS.init({
+//   once:true,
+// });
   const burger = document.querySelector(".burger");
   const menu = document.querySelector(".menu");
   let hashPageLink =  window.location.hash.substring(1);
@@ -31,6 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       footerLink.classList.add("is-hidden")
     }
+    // setTimeout(() => {
+    //   console.log("qq")
+    //   AOS.refreshHard();
+    // }, 200);
 
   }
   document.querySelectorAll('.swicth__item').forEach(link => {
