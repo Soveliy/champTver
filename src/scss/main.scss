@@ -710,6 +710,14 @@ body{
       max-width: 1000px;
     }
   }
+  video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
   &__desc{
     color: #FFF;
     text-align: center;
