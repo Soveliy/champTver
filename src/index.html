@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+
+        <div class="content js-active" data-event="bowling">
+          <div class="hero">
+            <div class="container">
+              <div class="hero__title">
+                <div class="hero__title-line">
+                  <div class="hero__title-text">
+                    Чемпионат
+                  </div>
+                  <div class="hero__comet hero__comet--type-1 comet comet--grey">
+                    <div class="comet__body">
+                    </div>
+                  </div>
+                </div>
+                <div class="hero__title-line">
+
+                  <div class="hero__comet comet  hero__comet--type-2 comet--blue">
+                    <div class="comet__body">
+                    </div>
+                  </div>
+                  <div class="hero__title-text">
+                    по боулингу
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="hero__desc">
+                Тверской области среди команд  цифровых компаний
+              </div>
+              <div class="hero__tizers tizers">
+                <div class="tizers__row">
+                  <div class="tizers__item-container tizers__item-container--w20">
+                    <div class="tizer-item">
+                      <div class="tizer-item__image-container">
+                        <img loading="lazy" src="img/svg//calendar.svg" class="image" width="" height="" alt="">
+                      </div>
+                      <p class="tizer-item__desc">
+                        15 сентября 2023
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="tizers__item-container tizers__item-container--w30">
+                    <div class="tizer-item">
+                      <div class="tizer-item__image-container">
+                        <img loading="lazy" src="img/svg/location.svg" class="image" width="" height="" alt="">
+                      </div>
+                      <p class="tizer-item__desc">
+                        Боулинг-клуб «Завод»,
+                        г.&nbsp;Тверь,&nbsp;пр-т Калинина, 15с1
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="tizers__item-container tizers__item-container--w50">
+                    <div class="tizer-item">
+                      <div class="tizer-item__image-container">
+                        <img loading="lazy" src="img/svg/team.svg" class="image" width="" height="" alt="">
+                      </div>
+                      <p class="tizer-item__desc">
+                        Команды-представители ИТ-сообщества Тверской области, Министерство цифрового развития и&nbsp;информационных технологий Тверской области.
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+                <img class="hero__bg" src="img/cup.jpg" alt="">
+
+
+          </div>
+          <div class="award">
+            <div class="container">
+              <div class="award__desc">
+                Кубок победителя Чемпионата по&nbsp;боулингу
+                Тверской области среди команд цифровых компаний
+              </div>
+              <div class="award__image">
+
+              </div>
+            </div>
+          </div>
+          <section class="program" id="program">
+            <div class="container">
+              <div class="section">
+                <h2 class="section__title">
+                  Программа
+                </h2>
+                <ol class="program__list">
+                  <li class="program__item"><span class="program__time">16:45-17:00</span>
+                    Встреча и регистрация команд-участников турнира
+                  </li>
+                  <li class="program__item"><span class="program__time">17:00-17:05</span>
+                    Приветственное слово министра цифрового развития
+                    и информационных технологий тверской области
+                  </li>
+                  <li class="program__item"><span class="program__time">17:05-19:50</span>
+                    Турнир по боулингу
+                  </li>
+                  <li class="program__item"><span class="program__time">19:50-20:00</span>
+                    Подведение итогов турнира. вручение кубка победителю
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+          <div class="video">
+            <div class="container">
+              <div class="video__desc">
+                Кубок победителя Чемпионата по боулингу <br>
+                Тверской области среди команд цифровых компаний
+              </div>
+              <div class="video__container">
+                <video>
+                  <source src="img/video.mp4" type="video/mp4">
+                </video>
+                <div class="video__btn">
+                  <svg width="131" height="131" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="65.5" cy="65.5" r="65.5" />
+                    <path d="M87.925 64.2595C89.2781 65.0254 89.2781 66.9746 87.925 67.7405L55.7352 85.9609C54.4019 86.7156 52.75 85.7524 52.75 84.2204L52.75 47.7796C52.75 46.2476 54.4019 45.2844 55.7352 46.0391L87.925 64.2595Z" />
+                  </svg>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <section class="photos" id="photo">
+            <div class="container">
+              <div class="section__title section__title--white">
+                Фотоальбом 2022
+              </div>
+              <!-- Slider main container -->
+              <div class="photos__slider-container">
+                <div class="photos__slider">
+                  <!-- Additional required wrapper -->
+                  <div class="photos__swiper-wrapper swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/photos/1.jpg" data-fslightbox="gallery">
+                        <img src="img/photos/1.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/photos/2.jpg" data-fslightbox="gallery">
+                        <img src="img/photos/2.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/photos/3.jpg" data-fslightbox="gallery">
+                        <img src="img/photos/3.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/photos/4.jpg" data-fslightbox="gallery">
+                        <img src="img/photos/4.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/photos/1.jpg" data-fslightbox="gallery">
+                        <img src="img/photos/1.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+
+
+
+
+                </div>
+                  <!-- If we need navigation buttons -->
+                  <div class="photos__arrow photos__arrow--left swiper-button-prev">
+                    <svg class="">
+                      <use xlink:href="img/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="photos__arrow photos__arrow--right swiper-button-next">
+                    <svg class="">
+                      <use xlink:href="img/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+              </div>
+              <div class="photos__show-more-container">
+                <a href="#" class="photos__show-more">Смотреть ещё</a>
+              </div>
+
+            </div>
+          </section>
+          <section class="members" id="members">
+            <div class="container">
+              <div class="section">
+                <h2 class="section__title">
+                  Участники
+                </h2>
+                <div class="members__row members__row--center">
+                  <div class="members__item-container members__item-container--w50">
+                    <a href="#" class="members-item">
+                      <img src="img/members/1.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container members__item-container--w50 members__item-container--flex-end">
+                    <a href="#" class="members-item">
+                      <img src="img/members/2.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container members__item-container--w100">
+                    <a href="#" class="members-item">
+                      <img src="img/members/3.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50 members__item-container--flex-center">
+                    <a href="#" class="members-item">
+                      <img src="img/members/4.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50 members__item-container--flex-center">
+                    <a href="#" class="members-item">
+                      <img src="img/members/5.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50 members__item-container--flex-end">
+                    <a href="#" class="members-item">
+                      <img src="img/members/6.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50">
+                    <a href="#" class="members-item">
+                      <img src="img/members/7.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="content" data-event="tennis">
+          <div class="hero">
+            <div class="container">
+              <div class="hero__title">
+                <div class="hero__title-line">
+                  <div class="hero__title-text">
+                    Чемпионат
+                  </div>
+                  <div class="hero__comet hero__comet--type-1 comet comet--grey">
+                    <div class="comet__body">
+                    </div>
+                  </div>
+                </div>
+                <div class="hero__title-line">
+
+
+                  <div class="hero__title-text hero__title-text--flex-shirnk-1">
+                    по настольному теннису
+                  </div>
+                </div>
+
+              </div>
+              <div class="hero__desc">
+                Тверской области среди команд  цифровых компаний
+              </div>
+              <div class="hero__tizers tizers">
+                <div class="tizers__row">
+                  <div class="tizers__item-container tizers__item-container--w20">
+                    <div class="tizer-item">
+                      <div class="tizer-item__image-container">
+                        <img loading="lazy" src="img/svg//calendar.svg" class="image" width="" height="" alt="">
+                      </div>
+                      <p class="tizer-item__desc">
+                        13 сентября 2023
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="tizers__item-container tizers__item-container--w30">
+                    <div class="tizer-item">
+                      <div class="tizer-item__image-container">
+                        <img loading="lazy" src="img/svg/location.svg" class="image" width="" height="" alt="">
+                      </div>
+                      <p class="tizer-item__desc">
+                        Клуб настольного тенниса
+                        «Сталекс», г. Тверь,
+                        пр-т Калинина, 15/4
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="tizers__item-container tizers__item-container--w50">
+                    <div class="tizer-item">
+                      <div class="tizer-item__image-container">
+                        <img loading="lazy" src="img/svg/team.svg" class="image" width="" height="" alt="">
+                      </div>
+                      <p class="tizer-item__desc">
+                        Команды-представители ИТ-сообщества Тверской области, Министерство цифрового развития и&nbsp;информационных технологий Тверской области.
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="hero__bg" src="img/cup.jpg" alt="">
+          </div>
+          <div class="award">
+            <div class="container">
+              <div class="award__desc">
+                Кубок победителя Чемпионата по&nbsp;настольному теннису
+                Тверской области среди команд цифровых компаний
+              </div>
+              <div class="award__image award__image--current">
+                <img src="img/cup_tennis.png" alt="">
+              </div>
+            </div>
+          </div>
+          <section class="program" id="program">
+            <div class="container">
+              <div class="section">
+                <h2 class="section__title">
+                  Программа
+                </h2>
+                <ol class="program__list">
+                  <li class="program__item"><span class="program__time">16:45-17:00</span>
+                    Встреча и регистрация команд-участников турнира
+                  </li>
+                  <li class="program__item"><span class="program__time">17:00-17:05</span>
+                    Приветственное слово министра цифрового развития
+                    и информационных технологий тверской области
+                  </li>
+                  <li class="program__item"><span class="program__time">17:05-19:50</span>
+                    Турнир по настольному теннису
+                  </li>
+                  <li class="program__item"><span class="program__time">19:50-20:00</span>
+                    Подведение итогов турнира. вручение кубка победителю
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+          <!-- <div class="video">
+            <div class="container">
+              <div class="video__desc">
+                Кубок победителя Чемпионата по боулингу <br>
+                Тверской области среди команд цифровых компаний
+              </div>
+              <div class="video__container">
+                <video>
+                  <source src="img/video.mp4" type="video/mp4">
+                </video>
+                <div class="video__btn">
+                  <svg width="131" height="131" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="65.5" cy="65.5" r="65.5" />
+                    <path d="M87.925 64.2595C89.2781 65.0254 89.2781 66.9746 87.925 67.7405L55.7352 85.9609C54.4019 86.7156 52.75 85.7524 52.75 84.2204L52.75 47.7796C52.75 46.2476 54.4019 45.2844 55.7352 46.0391L87.925 64.2595Z" />
+                  </svg>
+
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <section class="photos" id="photo">
+            <div class="container">
+              <div class="section__title section__title--white">
+                Фотоальбом <b>2023</b>
+              </div>
+              <!-- Slider main container -->
+              <div class="photos__slider-container">
+                <div class="photos__slider">
+                  <!-- Additional required wrapper -->
+                  <div class="photos__swiper-wrapper swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/1.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/1.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/2.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/2.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/3.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/3.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/4.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/4.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/5.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/5.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/6.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/6.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/7.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/7.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="photos__swiper-slide swiper-slide">
+                      <a href="img/tennis/8.jpg" data-fslightbox="gallery2">
+                        <img src="img/tennis/8.jpg" alt="">
+                      </a>
+                    </div>
+
+
+                  </div>
+
+
+
+
+
+                </div>
+                  <!-- If we need navigation buttons -->
+                  <div class="photos__arrow photos__arrow--left swiper-button-prev">
+                    <svg class="">
+                      <use xlink:href="img/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                  <div class="photos__arrow photos__arrow--right swiper-button-next">
+                    <svg class="">
+                      <use xlink:href="img/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </div>
+              </div>
+              <div class="photos__show-more-container">
+                <a href="#" class="photos__show-more">Смотреть ещё</a>
+              </div>
+
+            </div>
+          </section>
+          <section class="members" id="members">
+            <div class="container">
+              <div class="section">
+                <h2 class="section__title">
+                  Участники
+                </h2>
+                <div class="members__row members__row--center">
+                  <div class="members__item-container members__item-container--w33">
+                    <a href="#" class="members-item">
+                      <img src="img/members/8.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container members__item-container--w33">
+                    <a href="#" class="members-item">
+                      <img src="img/members/1.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container members__item-container--w33 members__item-container--flex-end">
+                    <a href="#" class="members-item">
+                      <img src="img/members/2.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container members__item-container--w50 members__item-container--flex-center">
+                    <a href="#" class="members-item">
+                      <img src="img/members/3.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50 members__item-container--flex-center">
+                    <a href="#" class="members-item">
+                      <img src="img/members/4.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50 members__item-container--flex-center">
+                    <a href="#" class="members-item">
+                      <img src="img/members/5.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50 members__item-container--flex-end">
+                    <a href="#" class="members-item">
+                      <img src="img/members/6.png" alt="">
+                    </a>
+                  </div>
+                  <div class="members__item-container  members__item-container--w50">
+                    <a href="#" class="members-item">
+                      <img src="img/members/7.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="winners">
+            <div class="container">
+              <div class="winners__row">
+                <div class="winners__desc">
+                  Победитель чемпионата по&nbsp;настольному теннису 2023&nbsp;&mdash; Российская телевизионная и&nbsp;радиовещательная сеть
+                </div>
+                <img src="img/winners.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
