@@ -229,9 +229,11 @@ body{
     &-text{
       flex-shrink: 0;
       &--flex-shirnk-1{
-        @include big-desktop(){
+        @media (max-width:1760px){
           flex-shrink: 1;
         }
+
+
       }
     }
   }
